@@ -66,6 +66,8 @@ export class Final extends React.Component{
                         <th>Date</th>
                         <th>Order Status</th>
                         <th>Outlet</th>
+                        <th>Rider</th>
+                        <th>Area</th>
                         <th>Destination</th>
                         <th>Est.KM</th>
                         
@@ -113,7 +115,9 @@ export class Final extends React.Component{
                                     
                                     
                                     <td>{row.data.outlet}</td>
+                                    <td>{row.data.RiderMail}</td>
                                     <td>{row.data.Area}</td>
+                                    <td>{row.data.Landmark}</td>
 
                                     <td>{distance}</td>
                                     
