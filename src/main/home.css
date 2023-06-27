@@ -1,0 +1,117 @@
+@media screen and (min-device-width:768px){
+    .homeBodyContainer{
+        display: flex;
+        margin-left: -2%;
+    }
+    .bodyLeft{
+        flex: 6;
+        
+    }
+    .bodyRight{
+        flex:6;
+    }
+    .leftImage{
+        width:850px;
+        height: 100vh
+    }
+
+    .orderTitle{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    .orderIdInput,.itemNameInput,.itemQuantity,.itemPrice,.paymentStatus,.paymentMode{
+        height: 30px;
+        margin: 10px;
+        font-size: 16px;
+        border: none;
+    }
+    .itemNameInput{
+        width: 60%;
+    }
+    .inputButtons{
+        margin-top: 5%;
+    }
+    .addItemButton,.newOrderButton,.finishButton{
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+        padding: 8px 18px 8px 18px;
+        margin: 15px;
+        color: white;
+        cursor: pointer;
+    }
+    .addItemButton{
+        background-color: cyan;
+        color: black;
+    }
+    .newOrderButton{
+        background-color: blue;
+    }
+    .finishButton{
+        background-color: red;
+    }
+
+}
+@media screen and (max-width:468px) {
+    .homeBodyContainer{
+        display: flex;
+        margin-left: -2%;
+    }
+    .bodyLeft{
+        flex: 6;
+        display: none;
+        
+    }
+    .bodyRight{
+        flex:6;
+    }
+    .leftImage{
+        width:850px;
+        height: 100vh
+    }
+    .orderTitle{
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    .orderIdInput,.itemNameInput,.itemQuantity,.itemPrice,.paymentStatus,.paymentMode{
+        height: 30px;
+        margin: 10px;
+        font-size: 16px;
+        border: 1px solid lightgrey;
+        width: 70%;
+        
+    }
+    .orderDetails,.customerDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .inputButtons{
+        margin-top: 5%;
+        margin-left: -25%;
+    }
+    .addItemButton,.newOrderButton,.finishButton{
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+        padding: 5px 12px 5px 12px;
+        margin: 4px;
+        color: white;
+        cursor: pointer;
+    }
+    .addItemButton{
+        background-color: cyan;
+        color: black;
+    }
+    .newOrderButton{
+        background-color: blue;
+    }
+    .finishButton{
+        background-color: red;
+    }
+    
+}

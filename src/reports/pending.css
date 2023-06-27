@@ -1,0 +1,41 @@
+body{
+    background-color: lightgrey !important;
+}
+.table{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 92% !important;
+    
+}
+.heading{
+    background-color: red;
+    margin-left: 3%;
+}
+th{
+    color: white;
+}
+tbody{
+    background-color: white;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.downloadBtn{
+    background-color: green;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+
+}
+.downloadBtn:hover{
+    background-color: red;
+}
+#table-to-xls{
+    margin-top: 6%;
+}

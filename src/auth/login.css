@@ -1,0 +1,107 @@
+@media screen and (min-device-width:768px){
+    body{
+        background-color: lightgrey;
+    }
+    .loginWrapper{
+        display: flex;
+        background-color: white;
+        width: 50%;
+        margin-top: 8%;
+        margin-left: 25%;
+    }
+    .loginLogo{
+        width: 400px;
+        height: 400px;
+    }
+    .inputFields{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .LoginfieldInput{
+        height: 30px;
+        width: 90%;
+        font-size: 16px;
+        margin: 10px;
+        border: none;
+    }
+    .LoginfieldInput:focus{
+        outline: solid 1px red;
+
+    }
+    .loginRight{
+        background-color: rgb(254, 150, 150);
+        width: 100%;
+    }
+    .signupButton{
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        padding: 5px 15px 5px 15px;
+        margin-top: 8%;
+
+    }
+    .formHeader{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        margin-top: 15%;
+    }
+
+    
+    
+}
+@media screen and (max-width:468px) {
+    
+    
+    
+    .loginWrapper{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        
+        
+        
+    }
+    .loginLogo{
+        width: 200px;
+        height: 200px;
+        margin-top: -15%;
+        margin-left: -30%;
+    }
+    .inputFields{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .LoginfieldInput{
+        height: 30px;
+        width: 90%;
+        font-size: 16px;
+        margin: 10px;
+        border: none;
+    }
+    .LoginfieldInput:focus{
+        outline: solid 1px red;
+    }
+    .loginRight{
+        background-color: rgb(254, 150, 150);
+        width: 75%;
+        margin-top: -10%;
+        padding-bottom: 20px;
+    }
+    .signupButton{
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        padding: 5px 15px 5px 15px;
+        
+    }
+    .formHeader{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        margin-top: 15%;
+    }
+    
+}
